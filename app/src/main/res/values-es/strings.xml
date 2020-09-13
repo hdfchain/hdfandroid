@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2018-2019 The Decred developers
+  ~ Use of this source code is governed by an ISC
+  ~ license that can be found in the LICENSE file.
+  -->
+
+<!-- Spanish Translation tricubeart@gmail.com-->
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!--General-->
+    <string name="wallet">Cartera</string>
+    <string name="crash_dialog_text">Ocurrió un error inesperado forzando a detener la aplicación. Ayúdenos a arreglar esto enviándonos las especificaciones de tu dispositivo y el registro de la aplicación.
+    Todo lo que tienes que haces es dar click en "Aceptar". Esto nos ayudará a prevenir que este error vuelva a ocurrir.</string>
+    <string name="send_dcr_info">Ingresa o escanea la dirección de la billetera de destino y la cantidad de DCR para enviar fondos.</string>
+    <string name="type">Tipo</string>
+    <string name="loading">Cargando</string>
+    <string name="dcr" translatable="false">DCR</string>
+    <string name="help">Ayuda</string>
+    <string name="overview">Resumen</string>
+    <string name="permission">Permisos</string>
+    <string name="denied_permission">Has negado los permisos!!!</string>
+    <string name="receive">Recibir</string>
+    <string name="send">Enviar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="connection">Conexión</string>
+    <string name="testnet">testnet</string>
+    <string name="general">General</string>
+    <string name="view_on_dcrdata">Ver en dcrdata</string>
+    <string name="default_account">Cuenta por defecto</string>
+    <string name="exit_cap">SALIR</string>
+    <string name="delete">Eliminar</string>
+    <string name="no">No</string>
+    <string name="confirm">Confirmar</string>
+    <string name="usd" translatable="false">USD</string>
+    <string name="settings">Configuraciones</string>
+    <string name="ok">De acuerdo</string>
+    <string name="user_agent">Agente de Usuario</string>
+    <string name="log_file_not_found">Archivo de registro no encontrado</string>
+    <string name="wallet_log_copied">Registro de la billetera copiado exitosamente</string>
+    <string name="one_day">1 día</string>
+    <string name="copy">Copiar</string>
+    <string name="address_not_found">La dirección no se encontró</string>
+    <string name="share">Compartir</string>
+    <string name="clear_fields">Eliminar campos</string>
+    <string name="retry_caps">REINTENTAR</string>
+    <string name="share_address_via">Compartir la imagen del código QR a</string>
+    <string name="license">Licencia</string>
+    <string name="always">Siempre</string>
+
+    <!--/General-->
+
+    <!--Peers-->
+    <string name="version">Versión</string>
+    <string name="connecting_to_peers">Conectando a los pares</string>
+    n
+    <!--/Peers-->
+
+    <!--Account-->
+    <string name="account_number">Número de cuenta</string>
+    <string name="account_name">Nombre de la cuenta</string>
+    <string name="hd_path">HD Path</string>
+    <string name="external">Externo</string>
+    <!--/Account-->
+
+    <!--Seed-->
+    <string name="save_seed_instruction">Escriba esta frase semilla que aparece abajo y guárdela en un lugar seguro. Se le pedirá que lo ingrese en la siguiente pantalla y si alguna vez necesita restaurar su billetara.</string>
+    <!--/Seed-->
+
+    <!--Balance-->
+    ¿
+    <string name="label_spendable">Gastable</string>
+    <string name="immature_stake_generation">Generación temprana de participación</string>
+    <string name="label_immature_rewards">Recompensas tempranas</string>
+    <string name="label_locked_by_tickets">Bloqueado por Tickets</string>
+    <string name="label_voting_authority">Votaciones</string>
+    <string name="current_total_balance">Saldo total actual</string>
+    <string name="total_balance">Saldo Total</string>
+    <!--/Balance-->
+
+    <!--Wallet-->
+    <string name="create_a_new_wallet">Crear una nueva cartera</string>
+    <string name="restore_existing_wallet">Restaurar cartera existente</string>
+    <string name="opening_wallet">Abriendo la cartera…</string>
+    <string name="invalid_passphrase">La contraseña que ha ingresado no es válida.</string>
+    <string name="invalid_pin">El PIN ingresado no es válido.</string>
+    <string name="invalid_password">La contraseña ingresada no es válida.</string>
+    <string name="failed_to_open_wallet">Fracaso al abrir la billetera.</string>
+    <!--/Wallet-->
+
+    <!--Transaction-->
+
+    <string name="recent_transactions">Transacciones recientes</string>
+    <string name="destination_address">Direccíón del destinatario</string>
+    <string name="transaction_fee">Tarifa de la transacción</string>
+    <string name="Transaction_details">Detalles de la transacción</string>
+    <string name="pending">Pendiente</string>
+    <string name="vote">Votar</string>
+    <string name="amount_invalid_decimal_places">El monto tiene más de 8 decimales.</string>
+    <string name="new_transaction">Nueva Transacción</string>
+    <!--/Transaction-->
+
+    <!--Block chain-->
+    <!--/Block chain-->
+
+
+
+
+    <!--Sync Messages-->
+    <string name="remaining_minute_sync_eta">%1$d%% Completadas, %2$d min restantes.</string>
+    <string name="remaining_seconds_sync_eta">%1$d%% Completadas, %2$d seg restantes.</string>
+    <string name="remaining_sync_eta_less_than_seconds">%1$d%% Completadas &lt;1 segundo restante.</string>
+    <string name="synchronizing">Sincronizando</string>
+    <!--/Sync Messages-->
+
+    <!--QR Code-->
+    <string name="camera_permission_scan">Esta aplicación necesita permiso de la cámara para escanear el código QR y obtener una dirección de la billetera. Concede los permisos en el siguiente cuadro de diálogo.</string>
+    <!--/QR Code-->
+
+    <!--Address-->
+    <string name="address_copy_text">Dirección copiada al portapapeles</string>
+    <string name="your_address">Tu dirección</string>
+    <string name="generate_new_address">Generar nueva direccìòn</string>
+    <string name="receive_fund_privacy_info">Cada vez que solicite un pago, se crea una nueva direcciòn para proteger su privacidad.</string>
+    <string name="invalid_address">No es una dirección válida.</string>
+    <!--/Address-->
+
+    <!--Preference-->
+    <string name="unconfirmed_funds">Gastar fondos no confirmados</string>
+    <string name="logging_level">Nivel del registro</string>
+    <string name="view_wallets_log">Registro de la billetera</string>
+    <string name="currency_conversion">Conversión actual</string>
+    <string name="user_agent_summary">Para obtener la tasa de cambio.</string>
+
+    <string-array name="currency_conversion">
+        <item>Ninguno</item>
+        <item>USD (bittrex)</item>
+    </string-array>
+
+    <string-array name="logging_levels" translatable="false">
+        <item>Trace</item>
+        <item>Debug</item>
+        <item>Info</item>
+        <item>Warn</item>
+        <item>Error</item>
+        <item>Critical</item>
+    </string-array>
+    <!--/Preference-->
+
+    <!-- Overview Fragment -->
+    <!--/ Overview Fragment -->
+
+    <!--History Fragment -->
+    <string name="sent">Enviado</string>
+    <string name="received">Recibido</string>
+    <!--/History Fragment -->
+
+    <!--Error Messages-->
+    <string name="not_enough_funds">No hay fondos suficientes.</string>
+    <string name="empty_seed">Semilla vacía</string>
+    <string name="not_connected">No está conectado a la red de DECRED</string>
+    <string name="passphrase_required">Se requiere frase de contraseña privada.</string>
+    <string name="wallet_not_loaded">Billetera no cargada</string>
+    <string name="err_no_peers">La red DECRED es inalcanzable debido a la falta de pares.</string>
+    <string name="not_enough_funds_synced">No hay fondos suficientes(o no se encuentra conectado).</string>
+    <!--/Error Messages-->
+
+    <!--Security Fragment-->
+    <string name="sign_message">Firmar Mensaje</string>
+    <string name="message">Mensaje</string>
+    <string name="valid_signature">Esta firma verifica mensaje y dirección.</string>
+    <string name="invalid_signature">Esta firma no verifica mensaje y dirección.</string>
+    <string name="sign_message_description">Aquí puedes verificar la válidez de una dirección, firmar mensajes para demostrar su titularidad y verificar firmas.</string>
+    <!--/Security Fragment-->
+
+    <!--Send Fragment-->
+    <string name="_0_bytes">0 bytes</string>
+    <string name="fee">Tarifa</string>
+    <string name="send_to_account">Enviar a la cuenta</string>
+    <string name="send_to_address">Enviar a la dirección</string>
+    <!--/Send Fragment-->
+
+    <!--Transaction Details View-->
+    <!--/Transaction Details View-->
+
+    <!--Confirm Transaction Dialog-->
+    <string name="toConfirmEnterYourPassword">Para confirmar, ingresa tu contraseña:</string>
+    <string name="to">para</string>
+    <!--/Confirm Transaction Dialog-->
+
+    <!--Security-->
+    <string name="create_spending_pin">Crear PIN de gasto</string>
+    <string name="mismatch_passcode">Los PIN no coinciden. Inténtelo de nuevo</string>
+    <string name="mismatch_password">LAS CONTRASEÑAS NO COINCIDEN</string>
+    <string name="password">CONTRASEÑA</string>
+    <string name="enter_spending_pin">Ingresa el PIN de gasto</string>
+    <string name="enter_startup_pin">Ingresa PIN de inicio</string>
+    <string name="create_startup_pin">Crear PIN de inicio</string>
+    <string name="create_startup_password">Crear una contraseña de inicio</string>
+    <string name="change_spending_pin_password">Cambiar PIN/Contraseña de gasto</string>
+    <string name="startup_pin_password">PIN/Contraseña de inicio</string>
+    <string name="change_startup_pin_password">Cambiar PIN/Contraseña de inicio.</string>
+    <!--/Security-->
+
+    <!--Crash Report-->
+    <string name="dont_send">No enviar</string>
+    <string name="send_report">Enviar Reporte</string>
+    <string name="app_crashed">La aplicación falló</string>
+    <string name="crash_report_copied">Reporte de falla copiado exitosamente</string>
+    <string name="hide_report">Ocultar Reporte</string>
+    <string name="view_report">Ver Reporte</string>
+    <!--/Crash Report-->
+
+    <!--WIFI Sync-->
+    <string name="wifi_data_sync_title">Sincronizar cuando no esté conectado a una red Wi-Fi</string>
+    <string name="wifi_sync_notice">¿Te gustaría sincronizar de todos modos?</string>
+    <string name="not_connected_to_wifi">No conectado al Wi-Fi.</string>
+    <!--/WIFI Sync-->
+
+</resources>

@@ -1,0 +1,63 @@
+<!--
+  ~ Copyright (c) 2018-2019 The Decred developers
+  ~ Use of this source code is governed by an ISC
+  ~ license that can be found in the LICENSE file.
+  -->
+
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <aapt:attr name="android:drawable">
+        <vector
+            android:name="decredsplash"
+            android:width="1000dp"
+            android:height="750dp"
+            android:viewportWidth="1000"
+            android:viewportHeight="750">
+            <group
+                android:name="symbol"
+                android:translateX="-185.00000000024482"
+                android:translateY="-138.50000000073356">
+                <clip-path
+                    android:name="path_1"
+                    android:pathData="M 1172 884 L 198 884 L 198 143 L 1172 143 L 1172 884 Z"/>
+                <group android:name="l_group">
+                    <path
+                        android:name="l"
+                        android:pathData="M 419.66 330.75 L 235.91 147 L 434.36 147 L 728.36 441 L 529.91 441 C 490.938 441 453.523 456.498 425.965 484.055 C 398.408 511.613 382.91 549.028 382.91 588 C 382.91 626.972 398.408 664.387 425.965 691.945 C 453.523 719.502 490.938 735 529.91 735 L 603.41 735 L 750.41 882 L 529.91 882 C 367.54 882 235.91 750.37 235.91 588 C 235.91 468.77 294.71 372.65 419.66 330.75 Z"
+                        android:fillColor="#2970ff"
+                        android:strokeWidth="1"/>
+                </group>
+                <group android:name="r_group">
+                    <path
+                        android:name="r"
+                        android:pathData="M 934.16 698.25 L 1117.91 882 L 919.46 882 L 625.46 588 L 823.91 588 C 862.882 588 900.297 572.502 927.855 544.945 C 955.412 517.387 970.91 479.972 970.91 441 C 970.91 402.028 955.412 364.613 927.855 337.055 C 900.297 309.498 862.882 294 823.91 294 L 750.41 294 L 603.41 147 L 823.91 147 C 986.29 147 1117.91 278.63 1117.91 441 C 1117.91 560.23 1059.11 656.36 934.16 698.25 Z"
+                        android:fillColor="#2dd8a3"
+                        android:strokeWidth="1"/>
+                </group>
+            </group>
+        </vector>
+    </aapt:attr>
+    <target android:name="r_group">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:propertyName="translateY"
+                android:duration="1000"
+                android:valueFrom="1000"
+                android:valueTo="0"
+                android:valueType="floatType"
+                android:interpolator="@android:anim/decelerate_interpolator"/>
+        </aapt:attr>
+    </target>
+    <target android:name="l_group">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:propertyName="translateY"
+                android:duration="1000"
+                android:valueFrom="1000"
+                android:valueTo="0"
+                android:valueType="floatType"
+                android:interpolator="@android:anim/decelerate_interpolator"/>
+        </aapt:attr>
+    </target>
+</animated-vector>

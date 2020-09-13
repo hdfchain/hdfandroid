@@ -1,0 +1,163 @@
+<!--
+  ~ Copyright (c) 2018-2019 The Decred developers
+  ~ Use of this source code is governed by an ISC
+  ~ license that can be found in the LICENSE file.
+  -->
+
+<!-- Russian Translation (Denys Zayets) denyszayets@gmail.com-->
+<resources>
+    <!--General-->
+    <string name="wallet">Кошелёк</string>
+    <string name="crash_dialog_text">Неожиданная ошибка спровоцировала сбой в работе приложения. Если вы перешлёте нам спецификацию вашего устройства и лог приложения, вы поможете нам решить эту проблему. Вам нужно просто нажать OK. Это поможет нам предотвратить появление ошибки в будущем.</string>
+    <string name="send_dcr_info">Для пересылки средств введите или отсканируйте адрес кошелька-получателя/и сумму в DCR.</string>
+    <string name="type">Тип</string>
+    <string name="loading">Загружается</string>
+    <string name="help">Справка</string>
+    <string name="overview">Обзор</string>
+    <string name="permission">Разрешение</string>
+    <string name="denied_permission">Вы отклонили разрешение!!!</string>
+    <string name="receive">Получить</string>
+    <string name="send">Отправить</string>
+    <string name="cancel">Отменить</string>
+    <string name="connection">Соединение</string>
+    <string name="testnet">testnet</string>
+    <string name="general">Основные</string>
+    <string name="view_on_dcrdata">просмотреть на dcrdata</string>
+    <string name="default_account">Аккаунт по умолчанию</string>
+    <string name="exit_cap">ВЫХОД</string>
+    <string name="delete">Удалить</string>
+    <string name="no">Нет</string>
+    <string name="confirm">Подтвердить</string>
+    <string name="settings">Настройки</string>
+    <string name="synced">Синхронизировано</string>
+    <string name="syncing">Синхронизируется</string>
+    <string name="ok">ОК</string>
+    <string name="user_agent">User Agent</string>
+    <string name="log_file_not_found">Лог не найден</string>
+    <string name="wallet_log_copied">Копирование лога кошелька завершено</string>
+
+    <!--/General-->
+
+    <!--Peers-->
+    <string name="version">Версия</string>
+    <string name="connecting_to_peers">Подключение к узлам</string>
+    <!--/Peers-->
+
+    <!--Account-->
+    <string name="account_number">Номер аккаунта</string>
+    <string name="account_name">Название аккаунта</string>
+    <string name="hd_path">Путь HD</string>
+    <string name="external">внешние</string>
+    <!--/Account-->
+
+    <!--Seed-->
+    <string name="save_seed_instruction">Запишите себе эту сид-фразу и храните её в надёжном месте. Вас попросят ввести эту фразу, в случае если у вас когда-либо возникнет необходимость восстановить ваш кошелёк.</string>
+    <!--/Seed-->
+
+    <!--Balance-->
+    <string name="label_spendable">Расходуемый</string>
+    <string name="immature_stake_generation">Несформированная генерация ставки</string>
+    <string name="label_immature_rewards">Незрелые вознаграждения</string>
+    <string name="label_locked_by_tickets">Заблокировано тикетами</string>
+    <string name="label_voting_authority">Право голоса</string>
+    <string name="current_total_balance">Текущий общий баланс</string>
+    <string name="total_balance">Общий баланс</string>
+    <!--/Balance-->
+
+    <!--Wallet-->
+    <string name="create_a_new_wallet">Создать новый кошелёк</string>
+    <string name="restore_existing_wallet">Восстановить существующий кошелёк</string>
+    <string name="opening_wallet">Открывается кошелёк…</string>
+    <string name="invalid_passphrase">Введённая парольная фраза недействительна.</string>
+    <string name="invalid_pin">Введённый PIN недействителен.</string>
+    <string name="invalid_password">Введённый пароль недействителен.</string>
+    <string name="failed_to_open_wallet">Не получилось открыть кошелёк</string>
+    <!--/Wallet-->
+
+    <!--Transaction-->
+    <string name="recent_transactions">Последние транзакции</string>
+    <string name="destination_address">Адрес назначения</string>
+    <string name="transaction_fee">Комиссия за транзакцию</string>
+    <string name="Transaction_details">О транзакции</string>
+    <string name="pending">В ожидании</string>
+    <string name="vote">Голосовать</string>
+    <string name="amount_invalid_decimal_places">Сумма содержит более восьми десятичных знаков</string>
+    <string name="new_transaction">Новая транзакция</string>
+    <!--/Transaction-->
+
+    <!--Block chain-->
+    <!--/Block chain-->
+
+    <!--QR Code-->
+    <string name="camera_permission_scan">Вам нужно предоставить доступ приложению к вашей фотокамере для сканирования QRCode и получения адреса кошелька. Пожалуйста, дайте разрешение в следующем диалогом окне.</string>
+    <!--/QR Code-->
+
+    <!--Address-->
+    <string name="address_copy_text">Адрес скопирован в буфер обмена</string>
+    <string name="your_address">Ваш адрес</string>
+    <string name="generate_new_address">Сгенерировать новый адрес</string>
+    <string name="receive_fund_privacy_info">Каждый раз, когда вы запрашиваете платёж, создаётся новый адрес в целях защиты ваших персональных данных.</string>
+    <string name="invalid_address">Недействительный адрес</string>
+    <!--/Address-->
+
+    <!--Preference-->
+    <string name="unconfirmed_funds">Потратить неподтверждённые средства</string>
+    <string name="logging_level">Уровень логирования</string>
+    <string name="view_wallets_log">Лог кошелька</string>
+    <string name="currency_conversion">Конвертация валют</string>
+
+    <string-array name="currency_conversion">
+        <item>Ни один</item>
+        <item>USD (bittrex)</item>
+    </string-array>
+    <!--/Preference-->
+
+    <!--Error Messages-->
+    <string name="not_enough_funds">Недостаточно средств.</string>
+    <string name="empty_seed">Пустой сид.</string>
+    <string name="not_connected">Не подключено к сети Decred</string>
+    <string name="passphrase_required">Требуется личная парольная фраза</string>
+    <string name="wallet_not_loaded">Кошелёк не загружен</string>
+    <!--/Error Messages-->
+
+    <!--Security Fragment-->
+    <string name="sign_message">Подписать сообщение</string>
+    <string name="message">Сообщение</string>
+    <string name="valid_signature">Эта подпись сопоставляет с сообщением и адресом.</string>
+    <string name="invalid_signature">Эта подпись не сопоставляет с сообщением и адресом.</string>
+    <string name="sign_message_description">Тут вы можете проверить действительность адреса, подписывать сообщения (чтобы доказать, что адрес принадлежит вам) и для верификации подписей.</string>
+    <!--/Security Fragment-->
+
+    <!--Send Fragment-->
+    <string name="_0_bytes">0 bytes</string>
+    <string name="fee">Комиссия</string>
+    <!--/Send Fragment-->
+
+    <!--Confirm Transaction Dialog-->
+    <string name="toConfirmEnterYourPassword">Чтобы подтвердить, введите ваш пароль:</string>
+    <string name="to">в:</string>
+    <!--/Confirm Transaction Dialog-->
+
+    <!--Security-->
+    <string name="create_spending_pin">Создайте PIN для расходов</string>
+    <string name="mismatch_passcode">PIN не совпадают. Попробуйте ещё раз</string>
+    <string name="mismatch_password">ПАРОЛИ НЕ СОВПАДАЮТ</string>
+    <string name="password">ПАРОЛЬ</string>
+    <string name="enter_spending_pin">Введите PIN для расходов</string>
+    <string name="change_spending_pin_password">Измените PIN/ пароль для расходов</string>
+    <!--/Security-->
+
+    <!-- Not grouped yet -->
+    <string name="user_agent_summary">Для получения обменного курса.</string>
+    <string name="send_to_account">Отправить в аккаунт</string>
+    <string name="send_to_address">Отправить на адрес</string>
+    <string name="retry_caps">ПОПРОБОВАТЬ ЕЩЁ РАЗ</string>
+    <string name="clear_fields">Очистить всё</string>
+    <string name="dont_send">Не отправляйте</string>
+    <string name="send_report">Отправить отчёт</string>
+    <string name="app_crashed">Сбой приложения</string>
+    <string name="crash_report_copied">Отчёт о сбое был скопирован.</string>
+    <string name="hide_report">Скрыть отчёт</string>
+    <string name="view_report">Просмотреть отчёт</string>
+    <string name="copy">Копировать</string>
+</resources>

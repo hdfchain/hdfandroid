@@ -1,0 +1,197 @@
+<!--
+  ~ Copyright (c) 2018-2019 The Decred developers
+  ~ Use of this source code is governed by an ISC
+  ~ license that can be found in the LICENSE file.
+  -->
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!--General-->
+    <string name="wallet">Ví</string>
+    <string name="crash_dialog_text">Đã xảy ra lỗi không mong muốn buộc ứng dụng phải dừng. Vui lòng giúp chúng tôi khắc phục điều này bằng cách gửi cho chúng tôi thông số kỹ thuật thiết bị và nhật ký ứng dụng của bạn, tất cả những gì bạn phải làm là nhấp vào OK. Điều này sẽ giúp chúng tôi ngăn lỗi xảy ra lần nữa</string>
+    <string name="send_dcr_info">Nhập hoặc quét địa chỉ ví đích\và số tiền trong DCR để gửi tiền.</string>
+    <string name="type">Kiểu</string>
+    <string name="loading">Đang tải</string>
+    <string name="help">Trợ giúp</string>
+    <string name="overview">Tổng quát</string>
+    <string name="permission">Cho phép</string>
+    <string name="denied_permission">Bạn đã từ chối sự cho phép!!!</string>
+    <string name="receive">Nhận</string>
+    <string name="send">Gửi</string>
+    <string name="cancel">Huỷ bỏ</string>
+    <string name="connection">Kết nối</string>
+    <string name="testnet">Mạng thử nghiệm (testnet)</string>
+    <string name="general">Tổng hợp</string>
+    <string name="view_on_dcrdata">Xem trên dcrdata</string>
+    <string name="default_account">Tài khoản mặc định</string>
+    <string name="exit_cap">THOÁT</string>
+    <string name="delete">Xoá</string>
+    <string name="no">Không</string>
+    <string name="confirm">Xác nhận</string>
+    <string name="settings">Cài đặt</string>
+    <string name="ok">OK</string>
+    <string name="user_agent">Đại lý người dùng</string>
+    <string name="log_file_not_found">Không tìm thấy tệp nhật ký</string>
+    <string name="wallet_log_copied">Nhật ký ví được sao chép thành công</string>
+    <string name="one_day">1 ngày</string>
+    <string name="copy">Sao chép</string>
+    <string name="address_not_found">Địa chỉ không tìm thấy.</string>
+    <string name="share">Chia sẻ</string>
+    <string name="clear_fields">Xóa các dữ liệu</string>
+    <string name="retry_caps">THỬ LẠI</string>
+    <string name="share_address_via">Chia sẻ hình ảnh mã QR tới</string>
+
+
+    <!--/General-->
+
+    <!--Peers-->
+    <string name="version">Phiên bản</string>
+    <string name="connecting_to_peers">Đang kết nối tới peers</string>
+    <!--/Peers-->
+
+    <!--Account-->
+    <string name="account_number">Số tài khoản</string>
+    <string name="account_name">Tên tài khoàn</string>
+    <string name="hd_path">Đường dẫn HD</string>
+    <string name="external">Bên ngoài</string>
+    <!--/Account-->
+
+    <!--Seed-->
+    <string name="save_seed_instruction">Hãy ghi lại từ khóa seed này, và lưu nó trong một vị trí bảo mật. Bạn sẽ được yêu cầu đăng nhập nó trên màn hình tiếp và nếu bạn cần phục hồi tên ví.</string>
+    <!--/Seed-->
+
+    <!--Balance-->
+    <string name="label_spendable">Có thể tiêu được</string>
+    <string name="immature_stake_generation">Thế hệ cổ phần chưa chin muồi (immature stake generation)</string>
+    <string name="label_immature_rewards">Phần thưởng chưa chín muồi (immature rewards)</string>
+    <string name="label_locked_by_tickets">Bị khóa bởi vé</string>
+    <string name="label_voting_authority">Cơ quan bỏ phiếu</string>
+    <string name="current_total_balance">Tổng số dư hiện tại</string>
+    <string name="total_balance">Tổng số dư</string>
+    <!--/Balance-->
+
+    <!--Wallet-->
+    <string name="create_a_new_wallet">Tạo ví mới</string>
+    <string name="restore_existing_wallet">Khôi phục ví hiện tại</string>
+    <string name="opening_wallet">Mở ví …</string>
+    <string name="invalid_passphrase">Cụm mật khẩu đã nhập không hợp lệ.</string>
+    <string name="invalid_pin">Mã PIN đã nhập không hợp lệ.</string>
+    <string name="invalid_password">Mật khẩu đã nhập không hợp lệ.</string>
+    <string name="failed_to_open_wallet">Không thể mở ví</string>
+    <!--/Wallet-->
+
+    <!--Transaction-->
+    <string name="recent_transactions">Giao dịch gần đây</string>
+    <string name="destination_address">Địa chỉ đích</string>
+    <string name="transaction_fee">Phí giao dịch</string>
+    <string name="Transaction_details">Chi tiết giao dịch</string>
+    <string name="pending">Đang chờ xử lý</string>
+    <string name="vote">Bỏ phiếu</string>
+    <string name="amount_invalid_decimal_places">Số tiền có nhiều hơn 8 chữ số thập phân</string>
+    <string name="new_transaction">Giao dịch mới</string>
+    <!--/Transaction-->
+
+    <!--Block chain-->
+    <!--/Block chain-->
+
+    <!--Sync Messages-->
+    <string name="remaining_minute_sync_eta">%1$d%% đã hoàn thành, %2$d phút còn lại.</string>
+    <string name="remaining_seconds_sync_eta">%1$d%% đã hoàn thành, %2$d giây còn lại.</string>
+    <string name="remaining_sync_eta_less_than_seconds">%1$d%% đã hoàn thành, &lt;1 giây còn lại.</string>
+    <string name="synchronizing">Đang đồng bộ hoá</string>
+    <!--/Sync Messages-->
+
+    <!--QR Code-->
+    <string name="camera_permission_scan">Ứng dụng này cần có sự cho phép của máy ảnh để quét QRCode cho một địa chỉ ví, Vui lòng cho phép các quyền trong hộp thoại tiếp theo.</string>
+    <!--/QR Code-->
+
+    <!--Address-->
+    <string name="address_copy_text">Địa chỉ được sao chép vào clipboard</string>
+    <string name="your_address">Địa chỉ của bạn</string>
+    <string name="generate_new_address">Tạo địa chỉ mới</string>
+    <string name="receive_fund_privacy_info">Mỗi khi bạn yêu cầu thanh toán, một địa chỉ mới sẽ được tạo để bảo vệ quyền riêng tư của bạn.</string>
+    <string name="invalid_address">Không phải là một địa chỉ hợp lệ.</string>
+    <!--/Address-->
+
+    <!--Preference-->
+
+    <string name="unconfirmed_funds">Chi tiêu chưa được xác nhận</string>
+    <string name="logging_level">Mức ghi nhật ký</string>
+    <string name="view_wallets_log">Nhật ký ví</string>
+    <string name="currency_conversion">Chuyển đổi ngoại tệ</string>
+    <string name="user_agent_summary">Để tìm nạp tỷ giá hối đoái.</string>
+
+    <string-array name="currency_conversion">
+        <item>None</item>
+        <item>USD (bittrex)</item>
+    </string-array>
+    <!--/Preference-->
+
+    <!-- Overview Fragment -->
+    <!--/ Overview Fragment -->
+
+    <!--History Fragment -->
+
+    <string name="sent">Đã gửi</string>
+    <string name="received">Đã nhận</string>
+    <!--/History Fragment -->
+
+    <!--Error Messages-->
+    <string name="not_enough_funds">Không đủ tiền.</string>
+    <string name="empty_seed">Seed rỗng</string>
+    <string name="not_connected">Không kết nối với mạng Decred</string>
+    <string name="passphrase_required">Mật khẩu riêng là bắt buộc</string>
+    <string name="wallet_not_loaded">Ví không được tải</string>
+    <string name="err_no_peers">Mạng decred bị hủy là không thể truy cập do thiếu các peer.</string>
+    <string name="not_enough_funds_synced">Không đủ tiền (hoặc không được kết nối).</string>
+    <!--/Error Messages-->
+
+    <!--Security Fragment-->
+    <string name="sign_message">Ký tin nhắn</string>
+    <string name="message">Tin nhắn</string>
+    <string name="valid_signature">Chữ ký này xác minh đối với tin nhắn và địa chỉ.</string>
+    <string name="invalid_signature">Chữ ký này không xác minh đối với tin nhắn và địa chỉ.</string>
+    <string name="sign_message_description">Tại đây bạn có thể xác minh tính hợp lệ của một địa chỉ, ký tin nhắn để chứng minh quyền sở hữu địa chỉ của bạn và xác minh chữ ký.</string>
+    <!--/Security Fragment-->
+
+    <!--Send Fragment-->
+    <string name="_0_bytes">0 bytes</string>
+    <string name="fee">Phí</string>
+    <string name="send_to_account">Gửi tới tài khoản</string>
+    <string name="send_to_address">Gửi đến địa chỉ</string>
+    <!--/Send Fragment-->
+
+    <!--Transaction Details View-->
+    <!--/Transaction Details View-->
+
+    <!--Confirm Transaction Dialog-->
+    <string name="toConfirmEnterYourPassword">Để xác nhận, nhập mật khẩu của bạn:</string>
+    <string name="to">Tới</string>
+    <!--/Confirm Transaction Dialog-->
+
+    <!--Security-->
+    <string name="create_spending_pin">Tạo mã PIN chi tiêu</string>
+    <string name="mismatch_passcode">PIN không khớp. Thử lại</string>
+    <string name="mismatch_password">MẬT KHẨU KHÔNG HỢP LỆ</string>
+    <string name="password">MẬT KHẨU</string>
+    <string name="enter_spending_pin">Nhập mã PIN chi tiêu</string>
+    <string name="enter_startup_pin">Nhập mã PIN khởi động</string>
+    <string name="create_startup_pin">Tạo mã PIN khởi động</string>
+    <string name="create_startup_password">Tạo mật khẩu khởi động</string>
+    <string name="change_spending_pin_password">Thay đổi chi tiêu PIN / Mật khẩu</string>
+    <string name="startup_pin_password">Mã PIN / Mật khẩu khởi động</string>
+    <string name="change_startup_pin_password">Thay đổi mã PIN khởi động /Mật khẩu</string>
+    <!--/Security-->
+
+    <!--Crash Report-->
+    <string name="dont_send">Đừng gửi</string>
+    <string name="send_report">Gửi báo cáo</string>
+    <string name="app_crashed">Ứng dụng bị sập</string>
+    <string name="crash_report_copied">Báo cáo sự cố được sao chép thành công</string>
+    <string name="hide_report">Ẩn báo cáo</string>
+    <string name="view_report">Xem báo cáo</string>
+    <!--/Crash Report-->
+
+    <string name="wifi_data_sync_title">Đồng bộ hóa khi không có WiFi</string>
+    <string name="always">Luôn luôn</string>
+    <string name="wifi_sync_notice">Bạn có muốn đồng bộ hóa bằng mọi cách?</string>
+    <string name="not_connected_to_wifi">Không kết nối với WiFi.</string>
+</resources>
