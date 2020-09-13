@@ -2,7 +2,7 @@
 
 [![Build and Test](https://github.com/hdfchain/hdfandroid/workflows/Build%20and%20Test/badge.svg)](https://github.com/hdfchain/hdfandroid/actions)
 
-A Hdfchain Mobile Wallet for android that runs on top of [dcrwallet](https://github.com/hdfchain/dcrwallet).
+A Hdfchain Mobile Wallet for android that runs on top of [hdfwallet](https://github.com/hdfchain/hdfwallet).
 
 ## Requirements
 
