@@ -103,7 +103,7 @@ class HomeActivity : BaseActivity(), SyncProgressListener, TxAndBlockNotificatio
             if (multiWallet!!.isSyncing) {
                 SnackBar.showError(this, R.string.wait_for_sync)
                 return@setOnClickListener
-            } else if (!multiWallet!!.isConnectedToHdfchainNetwork) {
+            } else if (!multiWallet!!.isConnectedToDecredNetwork) {
                 SnackBar.showError(this, R.string.not_connected)
                 return@setOnClickListener
             }
@@ -119,7 +119,7 @@ class HomeActivity : BaseActivity(), SyncProgressListener, TxAndBlockNotificatio
             } else if (multiWallet!!.isSyncing) {
                 SnackBar.showError(this, R.string.wait_for_sync)
                 return@setOnClickListener
-            } else if (!multiWallet!!.isConnectedToHdfchainNetwork) {
+            } else if (!multiWallet!!.isConnectedToDecredNetwork) {
                 SnackBar.showError(this, R.string.not_connected)
                 return@setOnClickListener
             }

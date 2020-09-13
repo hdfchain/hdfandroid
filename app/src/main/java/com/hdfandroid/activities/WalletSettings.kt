@@ -93,7 +93,7 @@ class WalletSettings : BaseActivity() {
 
         remove_wallet.setOnClickListener {
 
-            if (multiWallet!!.isConnectedToHdfchainNetwork) {
+            if (multiWallet!!.isConnectedToDecredNetwork) {
                 SnackBar.showError(this, R.string.disconnect_delete_wallet)
                 return@setOnClickListener
             }

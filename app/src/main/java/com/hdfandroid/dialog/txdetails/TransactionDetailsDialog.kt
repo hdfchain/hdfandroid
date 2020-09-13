@@ -265,7 +265,7 @@ class TransactionDetailsDialog(val transaction: Transaction) : FullScreenBottomS
             }
             R.id.rebroadcast_button -> {
 
-                if (!multiWallet.isConnectedToHdfchainNetwork) {
+                if (!multiWallet.isConnectedToDecredNetwork) {
                     SnackBar.showError(context!!, R.string.not_connected)
                     return
                 }
