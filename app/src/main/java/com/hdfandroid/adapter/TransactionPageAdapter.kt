@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2018-2019 The Decred developers
+ * Copyright (c) 2018-2019 The Hdfchain developers
  * Use of this source code is governed by an ISC
  * license that can be found in the LICENSE file.
  */
@@ -105,7 +105,7 @@ class TransactionPageAdapter(val context: Context, walletID: Long, val transacti
             } else {
                 transaction.amount
             }
-            val strAmount = CoinFormat.formatDecred(txAmount)
+            val strAmount = CoinFormat.formatHdfchain(txAmount)
 
             holder.amount.apply {
                 text = CoinFormat.format(strAmount + Constants.NBSP + layoutInflater.context.getString(R.string.dcr), 0.7f)

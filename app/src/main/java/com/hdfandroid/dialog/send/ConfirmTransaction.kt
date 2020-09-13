@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2018-2019 The Decred developers
+ * Copyright (c) 2018-2019 The Hdfchain developers
  * Use of this source code is governed by an ISC
  * license that can be found in the LICENSE file.
  */
@@ -59,7 +59,7 @@ class ConfirmTransaction(private val fragmentActivity: FragmentActivity, val sen
         send_from_account_name.text = HtmlCompat.fromHtml(getString(R.string.send_from_account,
                 selectedAccount.accountName, wallet.name), 0)
 
-        val dcrAmount = CoinFormat.formatDecred(Hdflibwallet.amountAtom(transactionData.dcrAmount.toDouble()))
+        val dcrAmount = CoinFormat.formatHdfchain(Hdflibwallet.amountAtom(transactionData.dcrAmount.toDouble()))
         val amountStr = if (transactionData.exchangeDecimal != null) {
             val usdAmount = dcrToFormattedUSD(transactionData.exchangeDecimal, transactionData.dcrAmount.toDouble(), 2)
             HtmlCompat.fromHtml(getString(R.string.x_dcr_usd, dcrAmount, usdAmount), 0)

@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2018-2019 The Decred developers
+ * Copyright (c) 2018-2019 The Hdfchain developers
  * Use of this source code is governed by an ISC
  * license that can be found in the LICENSE file.
  */
@@ -103,7 +103,7 @@ class HomeActivity : BaseActivity(), SyncProgressListener, TxAndBlockNotificatio
             if (multiWallet!!.isSyncing) {
                 SnackBar.showError(this, R.string.wait_for_sync)
                 return@setOnClickListener
-            } else if (!multiWallet!!.isConnectedToDecredNetwork) {
+            } else if (!multiWallet!!.isConnectedToHdfchainNetwork) {
                 SnackBar.showError(this, R.string.not_connected)
                 return@setOnClickListener
             }
@@ -119,7 +119,7 @@ class HomeActivity : BaseActivity(), SyncProgressListener, TxAndBlockNotificatio
             } else if (multiWallet!!.isSyncing) {
                 SnackBar.showError(this, R.string.wait_for_sync)
                 return@setOnClickListener
-            } else if (!multiWallet!!.isConnectedToDecredNetwork) {
+            } else if (!multiWallet!!.isConnectedToHdfchainNetwork) {
                 SnackBar.showError(this, R.string.not_connected)
                 return@setOnClickListener
             }

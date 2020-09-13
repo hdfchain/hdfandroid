@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2018-2019 The Decred developers
+ * Copyright (c) 2018-2019 The Hdfchain developers
  * Use of this source code is governed by an ISC
  * license that can be found in the LICENSE file.
  */
@@ -99,7 +99,7 @@ class WalletsAdapter(val context: Context, val launchIntent: (intent: Intent, re
     private fun setupWalletRow(wallet: Wallet, holder: WalletsViewHolder, position: Int) {
         holder.walletName.text = wallet.name
         holder.totalBalance.text = context.getString(R.string.dcr_amount,
-                CoinFormat.formatDecred(wallet.totalWalletBalance()))
+                CoinFormat.formatHdfchain(wallet.totalWalletBalance()))
 
         if (wallet.encryptedSeed == null) {
             holder.backupNeeded.hide()

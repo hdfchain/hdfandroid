@@ -1,5 +1,5 @@
 <!--
-  ~ Copyright (c) 2018-2019 The Decred developers
+  ~ Copyright (c) 2018-2019 The Hdfchain developers
   ~ Use of this source code is governed by an ISC
   ~ license that can be found in the LICENSE file.
   -->
@@ -36,7 +36,7 @@
     <string name="testnet">testnet</string>
     <string name="general">General</string>
     <string name="view_on_dcrdata">View on dcrdata</string>
-    <string name="https_docs_decred_org" translatable="false">https://docs.decred.org</string>
+    <string name="https_docs_hdfchain_org" translatable="false">https://docs.hdfchain.org</string>
     <string name="default_account">Default Account</string>
     <string name="exit_cap">EXIT</string>
     <string name="delete">Delete</string>
@@ -213,11 +213,11 @@
     <!--Error Messages-->
     <string name="not_enough_funds">Not enough funds.</string>
     <string name="empty_seed">Empty Seed</string>
-    <string name="not_connected">Not connected to Decred network</string>
+    <string name="not_connected">Not connected to Hdfchain network</string>
     <string name="watch_only_wallet_error">Only wallet is watching only</string>
     <string name="passphrase_required">Private Passphrase is required</string>
     <string name="wallet_not_loaded">Wallet Not Loaded</string>
-    <string name="err_no_peers">Decred network is unreachable due to a lack of peers.</string>
+    <string name="err_no_peers">Hdfchain network is unreachable due to a lack of peers.</string>
     <string name="not_enough_funds_synced">Not enough funds (or not connected).</string>
     <string name="error_occurred">Error occurred</string>
     <!--/Error Messages-->
@@ -294,7 +294,7 @@
     <string name="tx_details_account">%1$s DCR (%2$s)</string>
 
     <!--Landing page-->
-    <string name="welcome_android_title">Welcome to\nDecred Android Wallet</string>
+    <string name="welcome_android_title">Welcome to\nHdfchain Android Wallet</string>
     <!--Landing page-->
 
     <!--Time-->
@@ -391,7 +391,7 @@
     <string name="purchased">Purchased</string>
     <string name="receive_dcr">Receive DCR</string>
     <string name="selected_account_name">%1$s (%2$s)</string>
-    <string name="decred_qr_address_prefix">decred:%1$s</string>
+    <string name="hdfchain_qr_address_prefix">hdfchain:%1$s</string>
     <string name="got_it">Got It</string>
     <string name="tap_to_copy">(Tap to copy)</string>
     <string name="cancel_sync_create_wallet">Disconnect before creating wallet</string>
@@ -463,7 +463,7 @@
     <string name="clear_all">Clear All</string>
     <string name="verify_message">Verify message</string>
     <string name="invalid_base64_string">Not a base64 string.</string>
-    <string name="help_description">For more information, please visit the Decred documentation.</string>
+    <string name="help_description">For more information, please visit the Hdfchain documentation.</string>
     <string name="see_documentations">See documentations</string>
     <string name="exchange_rate_fetch_error">Exchange rate not fetched</string>
     <string name="retry">Retry</string>
@@ -477,7 +477,7 @@
     <string name="create_watch_only_wallet">Create watch-only wallet</string>
     <string name="extended_public_key">Extended Public Key</string>
     <string name="extended_public_key2">Extended public key</string>
-    <string name="ext_pub_key_info"><![CDATA[In <b>Decrediton</b>, under the <b>Accounts</b> section, expand the account you want to watch, and tap on <b>Reveal Pubkey</b>.]]></string>
+    <string name="ext_pub_key_info"><![CDATA[In <b>Hdfchainiton</b>, under the <b>Accounts</b> section, expand the account you want to watch, and tap on <b>Reveal Pubkey</b>.]]></string>
     <string name="wallet_name_exists">Wallet name exists</string>
     <string name="reserved_wallet_name">\'wallet-\' is a reserved prefix</string>
     <string name="invalid_key">Key is invalid</string>
@@ -528,9 +528,9 @@
     <string name="migrating_wallet">Migrating wallet</string>
     <string name="add_new_wallet">Add new wallet</string>
     <string name="wait_for_sync">Wait for sync to complete</string>
-    <string name="welcome_title">Welcome to Decred Wallet.</string>
+    <string name="welcome_title">Welcome to Hdfchain Wallet.</string>
     <string name="first_run_notice">Your 33 word seed is your wallet, keep it safe. Without it your funds cannot be recovered should your device be lost or destroyed.\n\nInitial wallet sync will take longer than usual.</string>
-    <string name="welcome_screen_text">Welcome to Decred Wallet, a secure &amp; open-source mobile wallet.</string>
+    <string name="welcome_screen_text">Welcome to Hdfchain Wallet, a secure &amp; open-source mobile wallet.</string>
     <string name="mywallet">mywallet</string>
     <string name="today">Today</string>
     <string name="yesterday">Yesterday</string>
@@ -543,6 +543,6 @@
     <string name="disconnect_delete_wallet">Disconnect/cancel sync before deleting wallet</string>
     <string name="seed_backup_success_msg">Be sure to store your seed phrase backup in a secure location.</string>
     <string name="seed_backup_verified">Your seed phrase backup is verified</string>
-    <string name="rebroadcast_tx_success">Republished unmined transactions to the decred network</string>
+    <string name="rebroadcast_tx_success">Republished unmined transactions to the hdfchain network</string>
 
 </resources>

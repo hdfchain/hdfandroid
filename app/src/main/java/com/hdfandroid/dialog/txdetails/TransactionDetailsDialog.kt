@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2018-2019 The Decred developers
+ * Copyright (c) 2018-2019 The Hdfchain developers
  * Use of this source code is governed by an ISC
  * license that can be found in the LICENSE file.
  */
@@ -72,7 +72,7 @@ class TransactionDetailsDialog(val transaction: Transaction) : FullScreenBottomS
         tx_details_id.setOnClickListener(this)
         tx_details_id.text = transaction.hash
         tx_details_type.text = transaction.type
-        tx_details_fee.text = getString(R.string.x_dcr, CoinFormat.formatDecred(transaction.fee))
+        tx_details_fee.text = getString(R.string.x_dcr, CoinFormat.formatHdfchain(transaction.fee))
 
         when (transaction.type) {
             Hdflibwallet.TxTypeRegular -> {
@@ -196,7 +196,7 @@ class TransactionDetailsDialog(val transaction: Transaction) : FullScreenBottomS
     private fun populateInputOutput() {
         val inputs = ArrayList<DropDownItem>()
         for (input in transaction.inputs!!) {
-            val amount = getString(R.string.tx_details_account, CoinFormat.formatDecred(input.amount), input.accountName)
+            val amount = getString(R.string.tx_details_account, CoinFormat.formatHdfchain(input.amount), input.accountName)
             var inputBadge = ""
             if (input.accountNumber != null && input.accountNumber != -1) {
                 inputBadge = wallet.name
@@ -208,7 +208,7 @@ class TransactionDetailsDialog(val transaction: Transaction) : FullScreenBottomS
 
         val outputs = ArrayList<DropDownItem>()
         for (output in transaction.outputs!!) {
-            val amount = getString(R.string.tx_details_account, CoinFormat.formatDecred(output.amount), output.accountName)
+            val amount = getString(R.string.tx_details_account, CoinFormat.formatHdfchain(output.amount), output.accountName)
             var outputBadge = ""
             if (output.account != -1) {
                 outputBadge = wallet.name
@@ -265,7 +265,7 @@ class TransactionDetailsDialog(val transaction: Transaction) : FullScreenBottomS
             }
             R.id.rebroadcast_button -> {
 
-                if (!multiWallet.isConnectedToDecredNetwork) {
+                if (!multiWallet.isConnectedToHdfchainNetwork) {
                     SnackBar.showError(context!!, R.string.not_connected)
                     return
                 }

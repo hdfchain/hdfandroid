@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2018-2019 The Decred developers
+ * Copyright (c) 2018-2019 The Hdfchain developers
  * Use of this source code is governed by an ISC
  * license that can be found in the LICENSE file.
  */
@@ -136,7 +136,7 @@ class ReceiveDialog(dismissListener: DialogInterface.OnDismissListener) : FullSc
 
         // Generate QR Code
         val barcodeEncoder = BarcodeEncoder()
-        var generatedQR = barcodeEncoder.encodeBitmap(getString(R.string.decred_qr_address_prefix, address),
+        var generatedQR = barcodeEncoder.encodeBitmap(getString(R.string.hdfchain_qr_address_prefix, address),
                 BarcodeFormat.QR_CODE, 1000, 1000, qrHints)
 
         generatedQR = overlayLogo(generatedQR)

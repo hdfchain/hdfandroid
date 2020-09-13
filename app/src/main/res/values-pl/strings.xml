@@ -1,5 +1,5 @@
 <!--
-  ~ Copyright (c) 2018-2019 The Decred developers
+  ~ Copyright (c) 2018-2019 The Hdfchain developers
   ~ Use of this source code is governed by an ISC
   ~ license that can be found in the LICENSE file.
   -->
@@ -35,7 +35,7 @@
     <string name="testnet">testnet</string>
     <string name="general">Ogólne</string>
     <string name="view_on_dcrdata">zobacz w dcrdata</string>
-    <string name="https_docs_decred_org" translatable="false">https://docs.decred.org</string>
+    <string name="https_docs_hdfchain_org" translatable="false">https://docs.hdfchain.org</string>
     <string name="default_account">Konto domyślne</string>
     <string name="exit_cap">WYJDŹ</string>
     <string name="delete">Skasuj</string>
@@ -210,10 +210,10 @@
     <!--Error Messages-->
     <string name="not_enough_funds">Brak wystarczających środków.</string>
     <string name="empty_seed">Pole ziarna jest puste</string>
-    <string name="not_connected">Brak połączenia z siecią Decred</string>
+    <string name="not_connected">Brak połączenia z siecią Hdfchain</string>
     <string name="passphrase_required">Wymagane jest prywatne hasło</string>
     <string name="wallet_not_loaded">Portfel nie został wczytany</string>
-    <string name="err_no_peers">Sieć Decred jest niedostępna ze względu na zbyt małą liczbę peerów (połączeń równorzędnych).</string>
+    <string name="err_no_peers">Sieć Hdfchain jest niedostępna ze względu na zbyt małą liczbę peerów (połączeń równorzędnych).</string>
     <string name="not_enough_funds_synced">Brak wystarczających środków (lub brak połączenia).</string>
     <string name="error_occurred">Wystąpił błąd</string>
     <!--/Error Messages-->
@@ -290,7 +290,7 @@
     <string name="tx_details_account">%1$s DCR (%2$s)</string>
 
     <!--Landing page-->
-    <string name="welcome_android_title">Witaj w\nportfelu Decred na systemie Android</string>
+    <string name="welcome_android_title">Witaj w\nportfelu Hdfchain na systemie Android</string>
     <!--Landing page-->
 
     <!--Time-->
@@ -384,7 +384,7 @@
     <string name="live">Live</string>
     <string name="receive_dcr">Odbierz DCR</string>
     <string name="selected_account_name">%1$s (%2$s)</string>
-    <string name="decred_qr_address_prefix">decred:%1$s</string>
+    <string name="hdfchain_qr_address_prefix">hdfchain:%1$s</string>
     <string name="got_it">Rozumiem</string>
     <string name="tap_to_copy">(kliknij, aby skopiować)</string>
     <string name="cancel_sync_create_wallet">Rozłącz się przed stworzeniem portfela</string>
@@ -453,7 +453,7 @@
     <string name="clear_all">Wyczyść wszystko</string>
     <string name="verify_message">Zweryfikuj wiadomość</string>
     <string name="invalid_base64_string">Typ danych nie jest w formacie base64.</string>
-    <string name="help_description">Aby uzyskać więcej informacji, odwiedź stronę dokumentacji Decred.</string>
+    <string name="help_description">Aby uzyskać więcej informacji, odwiedź stronę dokumentacji Hdfchain.</string>
     <string name="see_documentations">Wyświetl dokumentacje</string>
     <string name="exchange_rate_fetch_error">Nie pobrano kursu wymiany</string>
     <string name="retry">Spróbuj ponownie</string>
@@ -516,9 +516,9 @@
     <string name="migrating_wallet">Migracja portfela</string>
     <string name="add_new_wallet">Dodaj nowy portfel</string>
     <string name="wait_for_sync">Poczekaj, aż skończy się synchronizacja</string>
-    <string name="welcome_title">Witaj w portfelu Decred.</string>
+    <string name="welcome_title">Witaj w portfelu Hdfchain.</string>
     <string name="first_run_notice">Twoje składające się z 33 słów ziarno to Twój portfel — trzymaj je w bezpiecznym miejscu. Bez niego nie będzie można odzyskać Twoich środków, jeśli Twoje urządzenie ulegnie uszkodzeniu, lub zostanie zgubione.\n\nPoczątkowa synchronizacja portfela potrwa dłużej, niż zwykle.</string>
-    <string name="welcome_screen_text">Witaj w portfelu Decred, bezpiecznym oraz mobilnym portfelu typu open-source.</string>
+    <string name="welcome_screen_text">Witaj w portfelu Hdfchain, bezpiecznym oraz mobilnym portfelu typu open-source.</string>
     <string name="mywallet">mójportfel</string>
 
 </resources>

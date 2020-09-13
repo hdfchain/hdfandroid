@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2018-2019 The Decred developers
+ * Copyright (c) 2018-2019 The Hdfchain developers
  * Use of this source code is governed by an ISC
  * license that can be found in the LICENSE file.
  */
@@ -88,7 +88,7 @@ class SyncService : Service(), SyncProgressListener {
                 .setContentTitle(contentTitle)
                 .setSubText(subText)
                 .setContentText(contentText)
-                .setSmallIcon(R.drawable.decred_symbol_white)
+                .setSmallIcon(R.drawable.hdfchain_symbol_white)
                 .setOngoing(true)
                 .setAutoCancel(true)
                 .setSound(null)

@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2018-2019 The Decred developers
+ * Copyright (c) 2018-2019 The Hdfchain developers
  * Use of this source code is governed by an ISC
  * license that can be found in the LICENSE file.
  */
@@ -49,7 +49,7 @@ class AmountInputHelper(private val layout: LinearLayout, private val scrollToBo
     var selectedAccount: Account? = null
         set(value) {
             layout.spendable_balance.text = context.getString(R.string.spendable_bal_format,
-                    CoinFormat.formatDecred(value!!.balance.spendable))
+                    CoinFormat.formatHdfchain(value!!.balance.spendable))
             field = value
         }
 
@@ -198,7 +198,7 @@ class AmountInputHelper(private val layout: LinearLayout, private val scrollToBo
 
             if (currencyIsDCR) {
                 val dcr = Hdflibwallet.amountAtom(coin)
-                val amountString = CoinFormat.formatDecred(dcr, CoinFormat.dcrWithoutCommas)
+                val amountString = CoinFormat.formatHdfchain(dcr, CoinFormat.dcrWithoutCommas)
                 layout.send_amount.setText(CoinFormat.format(amountString, AmountRelativeSize))
             } else {
                 val usd = usdAmount!!.setScale(2, BigDecimal.ROUND_HALF_EVEN).toPlainString()

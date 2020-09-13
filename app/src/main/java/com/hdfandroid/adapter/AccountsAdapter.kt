@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2018-2019 The Decred developers
+ * Copyright (c) 2018-2019 The Hdfchain developers
  * Use of this source code is governed by an ISC
  * license that can be found in the LICENSE file.
  */
@@ -78,7 +78,7 @@ class AccountsAdapter(private val context: Context, private val walletID: Long) 
             holder.accountName.isSelected = true
             holder.totalBalance.text = CoinFormat.format(account.totalBalance)
             holder.spendableBalance.text = context.getString(R.string.dcr_amount,
-                    CoinFormat.formatDecred(account.balance.spendable))
+                    CoinFormat.formatHdfchain(account.balance.spendable))
 
             holder.itemView.setOnClickListener {
                 AccountDetailsDialog(context, walletID, account) { newName ->

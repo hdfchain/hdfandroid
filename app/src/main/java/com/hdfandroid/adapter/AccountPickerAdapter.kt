@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2018-2019 The Decred developers
+ * Copyright (c) 2018-2019 The Hdfchain developers
  * Use of this source code is governed by an ISC
  * license that can be found in the LICENSE file.
  */
@@ -71,7 +71,7 @@ class AccountPickerAdapter(val items: Array<Any>, val context: Context, val curr
             holder.itemView.account_row_total_balance.text = CoinFormat.format(item.balance.total)
 
             holder.itemView.account_row_spendable_balance.text = context.getString(R.string.dcr_amount,
-                    CoinFormat.formatDecred(item.balance.spendable))
+                    CoinFormat.formatHdfchain(item.balance.spendable))
 
             holder.itemView.setOnClickListener {
                 accountSelected(item)

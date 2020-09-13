@@ -1,5 +1,5 @@
 <!--
-  ~ Copyright (c) 2018-2019 The Decred developers
+  ~ Copyright (c) 2018-2019 The Hdfchain developers
   ~ Use of this source code is governed by an ISC
   ~ license that can be found in the LICENSE file.
   -->
@@ -149,10 +149,10 @@
     <!--Error Messages-->
     <string name="not_enough_funds">Saldo insufuciente.</string>
     <string name="empty_seed">Semente (Seed)Vazia</string>
-    <string name="not_connected">Sem conexão para a rede Decred</string>
+    <string name="not_connected">Sem conexão para a rede Hdfchain</string>
     <string name="passphrase_required">Senha privada é necessária</string>
     <string name="wallet_not_loaded">Carteira Não Carregada</string>
-    <string name="err_no_peers">Rede Decred não está Decred acessível devido a falta de nós (nodes).</string>
+    <string name="err_no_peers">Rede Hdfchain não está Hdfchain acessível devido a falta de nós (nodes).</string>
     <string name="not_enough_funds_synced">Saldo insuficiente (ou sem conexão).</string>
     <!--/Error Messages-->
 

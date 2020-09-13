@@ -56,5 +56,5 @@ jobs:
       - name: Upload Testnet APK
         uses: actions/upload-artifact@v1
         with:
-          name: Decred Wallet Testnet (debug apk)
+          name: Hdfchain Wallet Testnet (debug apk)
           path: app/build/outputs/apk/tstnet/debug/app-tstnet-debug.apk

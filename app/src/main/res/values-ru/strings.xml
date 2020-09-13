@@ -1,5 +1,5 @@
 <!--
-  ~ Copyright (c) 2018-2019 The Decred developers
+  ~ Copyright (c) 2018-2019 The Hdfchain developers
   ~ Use of this source code is governed by an ISC
   ~ license that can be found in the LICENSE file.
   -->
@@ -115,7 +115,7 @@
     <!--Error Messages-->
     <string name="not_enough_funds">Недостаточно средств.</string>
     <string name="empty_seed">Пустой сид.</string>
-    <string name="not_connected">Не подключено к сети Decred</string>
+    <string name="not_connected">Не подключено к сети Hdfchain</string>
     <string name="passphrase_required">Требуется личная парольная фраза</string>
     <string name="wallet_not_loaded">Кошелёк не загружен</string>
     <!--/Error Messages-->

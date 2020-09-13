@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2018-2019 The Decred developers
+ * Copyright (c) 2018-2019 The Hdfchain developers
  * Use of this source code is governed by an ISC
  * license that can be found in the LICENSE file.
  */
@@ -22,7 +22,7 @@ class HelpActivity : BaseActivity() {
         go_back.setOnClickListener { finish() }
 
         see_docs.setOnClickListener {
-            val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.https_docs_decred_org)))
+            val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.https_docs_hdfchain_org)))
             startActivity(browserIntent)
         }
     }

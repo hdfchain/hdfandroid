@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2018-2019 The Decred developers
+ * Copyright (c) 2018-2019 The Hdfchain developers
  * Use of this source code is governed by an ISC
  * license that can be found in the LICENSE file.
  */
@@ -73,12 +73,12 @@ object CoinFormat {
     }
 
     fun format(amount: Double, relativeSize: Float = 0.7f, suffix: String = " DCR"): Spannable {
-        return format(formatDecred(amount) + suffix, relativeSize)
+        return format(formatHdfchain(amount) + suffix, relativeSize)
     }
 
-    fun formatDecred(dcr: Double, pattern: String = dcrWithCommasAndZeros) = formatDecred(Hdflibwallet.amountAtom(dcr), pattern)
+    fun formatHdfchain(dcr: Double, pattern: String = dcrWithCommasAndZeros) = formatHdfchain(Hdflibwallet.amountAtom(dcr), pattern)
 
-    fun formatDecred(dcr: Long, pattern: String = dcrWithCommasAndZeros): String {
+    fun formatHdfchain(dcr: Long, pattern: String = dcrWithCommasAndZeros): String {
         val convertedDcr = Hdflibwallet.amountCoin(dcr)
         val df = NumberFormat.getNumberInstance(Locale.ENGLISH) as DecimalFormat
         df.applyPattern(pattern)

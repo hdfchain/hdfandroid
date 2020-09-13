@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2018-2019 The Decred developers
+ * Copyright (c) 2018-2019 The Hdfchain developers
  * Use of this source code is governed by an ISC
  * license that can be found in the LICENSE file.
  */
@@ -124,21 +124,21 @@ fun parseBalanceArray(json: String): ArrayList<Balance> {
     return gson.fromJson(json, listType)
 }
 
-class DecredAddressURI {
+class HdfchainAddressURI {
 
     var address: String = ""
     var amount: Double? = null
 
     companion object {
-        fun from(uriString: String): DecredAddressURI {
+        fun from(uriString: String): HdfchainAddressURI {
 
-            val addressURI = DecredAddressURI()
+            val addressURI = HdfchainAddressURI()
 
             var address: String = uriString
             var amount: Double? = null
 
             val schemeSeparatedParts = uriString.split(":")
-            if (schemeSeparatedParts.size == 2 && schemeSeparatedParts[0] == "decred") {
+            if (schemeSeparatedParts.size == 2 && schemeSeparatedParts[0] == "hdfchain") {
 
                 val addressAndQuery = schemeSeparatedParts[1].split("?")
 

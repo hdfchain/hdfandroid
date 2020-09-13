@@ -1,5 +1,5 @@
 <!--
-  ~ Copyright (c) 2018-2019 The Decred developers
+  ~ Copyright (c) 2018-2019 The Hdfchain developers
   ~ Use of this source code is governed by an ISC
   ~ license that can be found in the LICENSE file.
   -->
@@ -9,7 +9,7 @@
     xmlns:aapt="http://schemas.android.com/aapt">
     <aapt:attr name="android:drawable">
         <vector
-            android:name="decredsplash"
+            android:name="hdfchainsplash"
             android:width="1000dp"
             android:height="750dp"
             android:viewportWidth="1000"

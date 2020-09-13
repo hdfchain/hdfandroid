@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2018-2019 The Decred developers
+ * Copyright (c) 2018-2019 The Hdfchain developers
  * Use of this source code is governed by an ISC
  * license that can be found in the LICENSE file.
  */
@@ -23,7 +23,7 @@ import com.hdfandroid.adapter.PopupItem
 import com.hdfandroid.adapter.PopupUtil
 import com.hdfandroid.data.Account
 import com.hdfandroid.data.Constants
-import com.hdfandroid.data.DecredAddressURI
+import com.hdfandroid.data.HdfchainAddressURI
 import com.hdfandroid.data.TransactionData
 import com.hdfandroid.dialog.FullScreenBottomSheetDialog
 import com.hdfandroid.dialog.InfoDialog
@@ -361,13 +361,13 @@ class SendDialog(val fragmentActivity: FragmentActivity, dismissListener: Dialog
         val totalCostAtom = amountAtom + feeAtom
         val balance = selectedAccount.balance.spendable - totalCostAtom
         val balanceAfterSend = if (balance > 0) {
-            getString(R.string.x_dcr, CoinFormat.formatDecred(balance))
+            getString(R.string.x_dcr, CoinFormat.formatHdfchain(balance))
         } else {
             getString(R.string.x_dcr, "0")
         }
 
-        val feeString = CoinFormat.formatDecred(feeAtom)
-        val totalCostString = CoinFormat.formatDecred(totalCostAtom)
+        val feeString = CoinFormat.formatHdfchain(feeAtom)
+        val totalCostString = CoinFormat.formatHdfchain(totalCostAtom)
 
         val feeSpanned: Spanned
         val totalCostSpanned: Spanned
@@ -403,11 +403,11 @@ class SendDialog(val fragmentActivity: FragmentActivity, dismissListener: Dialog
         if (requestCode == SCAN_QR_REQUEST_CODE && resultCode == RESULT_OK) {
             val result = data!!.getStringExtra(Constants.RESULT)
 
-            val decredAddressUri = DecredAddressURI.from(result)
-            destinationAddressCard.addressInputHelper.editText.setText(decredAddressUri.address)
-            if (decredAddressUri.amount != null) {
+            val hdfchainAddressUri = HdfchainAddressURI.from(result)
+            destinationAddressCard.addressInputHelper.editText.setText(hdfchainAddressUri.address)
+            if (hdfchainAddressUri.amount != null) {
                 sendMax = false
-                amountHelper.setAmountDCR(decredAddressUri.amount!!)
+                amountHelper.setAmountDCR(hdfchainAddressUri.amount!!)
             }
         }
     }

@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2018-2019 The Decred developers
+ * Copyright (c) 2018-2019 The Hdfchain developers
  * Use of this source code is governed by an ISC
  * license that can be found in the LICENSE file.
  */
@@ -93,7 +93,7 @@ class WalletSettings : BaseActivity() {
 
         remove_wallet.setOnClickListener {
 
-            if (multiWallet!!.isConnectedToDecredNetwork) {
+            if (multiWallet!!.isConnectedToHdfchainNetwork) {
                 SnackBar.showError(this, R.string.disconnect_delete_wallet)
                 return@setOnClickListener
             }
